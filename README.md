@@ -3,24 +3,20 @@ pixi-noise-filter
 
 A noise filter for [pixi.js](http://www.pixijs.com/).
 
-Installation
-------------
-
-Using [npm](http://npmjs.org/)
+install with [npm](http://npmjs.org/)
+-------------------------------------
 
 ```bash
 npm install --save pixi.js
 npm install --save pixi-noise-filter
 ```
 
-Usage
------
-
-Using [Browserify](http://browserify.org/)
+use with [Browserify](http://browserify.org/)
+---------------------------------------------
 
 ```js
 var PIXI = require('pixi.js');
-var NoiseFilter = require('pixi-noise-filter')(PIXI);
+var NoiseFilter = require('pixi-noise-filter');
 
 var renderer = PIXI.autoDetectRenderer();
 document.body.appendChild(renderer.view);
@@ -32,7 +28,7 @@ stage.filters = [filter];
 renderer.render(stage);
 ```
 
-Properties
+properties
 ----------
 
 `noiseLevelRGBA = [R, G, B, A]`
