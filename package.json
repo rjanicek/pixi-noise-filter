@@ -1,0 +1,22 @@
+{
+  "name": "pixi-NoiseFilter",
+  "version": "0.0.1",
+  "description": "A noise filter for pixi.js",
+  "keywords": [
+    "pixi",
+    "filter",
+    "glsl",
+    "noise"
+  ],
+  "author": "Richard Janicek <r@janicek.co> (http://www.janicek.co)",
+  "license": "MIT",
+  "homepage": "https://github.com/rjanicek/pixi-NoiseFilter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjanicek/pixi-NoiseFilter"
+  },
+  "main": "src/index.js",
+  "devDependencies": {
+    "rfile": "^1.0.0"
+  }
+}
