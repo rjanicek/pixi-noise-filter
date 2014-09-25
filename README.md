@@ -1,5 +1,5 @@
-pixi-NoiseFilter
-================
+pixi-noise-filter
+=================
 
 A noise filter for [pixi.js](http://www.pixijs.com/).
 
@@ -10,7 +10,7 @@ Using [npm](http://npmjs.org/)
 
 ```bash
 npm install --save pixi.js
-npm install --save pixi-NoiseFilter
+npm install --save pixi-noise-filter
 ```
 
 Usage
@@ -20,7 +20,7 @@ Using [Browserify](http://browserify.org/)
 
 ```js
 var PIXI = require('pixi.js');
-var NoiseFilter = require('pixi-NoiseFilter')(PIXI);
+var NoiseFilter = require('pixi-noise-filter')(PIXI);
 
 var renderer = PIXI.autoDetectRenderer();
 document.body.appendChild(renderer.view);
